@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+
+<body>
+    <form action="">
+        <div>
+            <label for="Username"><strong>Username:</strong></label>
+            <input type="text" id="Username" name="Username" placeholder="Enter your Username" autofocus required>
+        </div>
+        <br>
+
+        <div>
+            <label for="Password"><strong>Password:</strong></label>
+            <input type="password" name="Password" id="Password" placeholder="Password" pattern="[a-zA-z0-9]+">
+        </div>
+        <br>
+
+        <div>
+            <label for=""><strong>E-mail:</strong></label>
+            <input type="email" placeholder="Enter your email" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="gender"><strong>Gender:</strong></label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        </div>
+        <br>
+
+        <div>
+            <label for=""><strong>D.O.B:</strong></label>
+            <input type="date">
+        </div>
+        <br>
+
+        <div>
+            <label for="Employment"><strong>City of employment:</strong></label>
+            <input type="text" name="Employment" id="Employment" placeholder="Employment">
+        </div>
+        <br>
+
+        <div>
+            <label for="Server"><strong>Choose the server:</strong></label>
+            <select name="Server">
+                <option value="">-Choose your Server-</option>
+                <option value="Google">Google</option>
+                <option value="Amazon">Amazon</option>
+                <option value="Tesla">Tesla</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label for="role"><strong>Specify your roll</strong></label>
+            <input type="radio" name="role">Admin
+            <input type="radio" name="role">Engineer
+            <input type="radio" name="role">Manager
+        </div>
+        <br>
+
+        <div>
+            <label for="">Addres</label><br>
+            <textarea name="Addres" rows="5" cols="30">Enter your address....</textarea>
+        </div>
+        <br>
+
+        <div>
+            <input type="checkbox">All information are correct which is mansion above
+        </div>
+        <br>
+
+        <div>
+            <button type="submit">submit</button>
+            <button type="reset">reset</button>
+        </div>
+    </form>
+</body>
+
+</html>
